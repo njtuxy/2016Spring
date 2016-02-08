@@ -1,3 +1,4 @@
+import junit.framework.Assert;
 import junit.framework.TestCase;
 
 import java.util.ArrayList;
@@ -33,31 +34,38 @@ public class interViewTest extends TestCase {
     public void testGetSmallestLexicalTicketsThatBeginsWith() throws Exception {
 
         String[][] inputTickets;
-        String[] expected;
-        String[] current;
+
+        Ticket expected;
+        Ticket current;
+
 
         inputTickets =  new String[][]{{"JFK","SFO"},{"JFK","ATL"},{"SFO","ATL"},{"ATL","JFK"},{"ATL","SFO"}};
 
-        expected =new String[] {"JFK", "ATL"};
+        expected =new Ticket("JFK", "ATL") ;
         current= interView.getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
         System.out.println(Arrays.deepToString(inputTickets));
-        assertTrue("  EXPECTED is: " + Arrays.toString(expected) + "  CURRENT  is:   " + Arrays.toString(current)   , Arrays.equals(expected, current));
+        Assert.assertEquals(expected.stringValue(), current.stringValue());
 
-        expected = new String[]{"ATL", "JFK"};
+
+        expected = new Ticket("ATL", "JFK");
         System.out.println(Arrays.deepToString(inputTickets));
         current = interView.getSmallestLexicalTicketsThatBeginsWith("ATL", inputTickets);
-        assertTrue("  EXPECTED is: " + Arrays.toString(expected) + "  CURRENT  is:   " + Arrays.toString(current)   , Arrays.equals(expected, current));
+        System.out.println(expected.stringValue());
+        System.out.println(current.stringValue());
+        Assert.assertEquals(expected.stringValue(), current.stringValue());
 
 
 
-        expected = new String[]{};
+        expected = null;
         current = interView.getSmallestLexicalTicketsThatBeginsWith("OKC", inputTickets);
-        assertTrue("  EXPECTED is: " + Arrays.toString(expected) + "  CURRENT  is:   " + Arrays.toString(current)   , Arrays.equals(expected, current));
+        Assert.assertEquals(expected, current);
+
 
         inputTickets =  new String[][]{{"JFK","SFO"}};
-        expected = new String[]{"JFK","SFO"};
+        expected = new Ticket("JFK","SFO");
         current = interView.getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
-        assertTrue("  EXPECTED is: " + Arrays.toString(expected) + "  CURRENT  is:   " + Arrays.toString(current)   , Arrays.equals(expected, current));
+        Assert.assertEquals(expected.stringValue(), current.stringValue());
+
     }
 
 
