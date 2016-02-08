@@ -20,7 +20,12 @@ public class interView {
             Ticket t;
             if(outputTickets.size() == 0){
                 t = getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
-                outputTickets.add(t);
+                if(t == null){
+                    break;
+                }else{
+                    outputTickets.add(t);
+                }
+
             }else{
                 t=getSmallestLexicalTicketsThatBeginsWith(outputTickets.get(outputTickets.size()-1).toCity, inputTickets);
                 if(t==null){
@@ -33,10 +38,14 @@ public class interView {
 
         String[] outputString = new String[outputTickets.size()+1];
 
+        System.out.println(outputTickets.size());
+
         for(int i=0; i<outputTickets.size(); i++){
             outputString[i] = outputTickets.get(i).fromCity;
         }
-        outputString[outputString.length-1] = outputTickets.get(outputTickets.size()-1).toCity;
+        if(outputTickets.size() > 0){
+            outputString[outputString.length-1] = outputTickets.get(outputTickets.size()-1).toCity;
+        }
 
         System.out.println(Arrays.toString(outputString));
 

@@ -33,10 +33,17 @@ public class interViewTest extends TestCase {
         interView.ticketConverter(originalTickets1);
     }
 
-//        assertEquals(expected, interView.ticketConverter(inputTickets));
+    public void testTicketConverter3() throws Exception {
+        String[][] inputTickets1 = new String[][]{{"MUC", "LHR"}};
+        Tickets originalTickets1  = new Tickets(inputTickets1);
+        interView.ticketConverter(originalTickets1);
+    }
 
-//        System.out.println("here is the array: " + Arrays.toString(expected));
-//        System.out.println("here is the array: " + Arrays.toString(inputTickets));
+    public void testTicketConverter4() throws Exception {
+        String[][] inputTickets1 = new String[][]{};
+        Tickets originalTickets1  = new Tickets(inputTickets1);
+        interView.ticketConverter(originalTickets1);
+    }
 
 
     public void testGetSmallestLexicalTicketsThatBeginsWith() throws Exception {
@@ -46,6 +53,7 @@ public class interViewTest extends TestCase {
         Ticket expected;
         Ticket current;
 
+        /*
         inputTickets =  new String[][]{{"JFK","SFO"},{"JFK","ATL"},{"SFO","ATL"},{"ATL","SFO"}, {"ATL","JFK"},};
 
         //Read the raw tickets and store them with Ticket class
@@ -73,6 +81,15 @@ public class interViewTest extends TestCase {
         current = interView.getSmallestLexicalTicketsThatBeginsWith("JFK", originalTickets1);
         originalTickets1.ticketSelectedStatus();
         Assert.assertEquals(expected.stringValue(), current.stringValue());
+
+        */
+
+        inputTickets =  new String[][]{};
+        Tickets originalTickets2  = new Tickets(inputTickets);
+//        expected = new Ticket("JFK","SFO");
+//        current = interView.getSmallestLexicalTicketsThatBeginsWith("JFK", originalTickets1);
+//        originalTickets1.ticketSelectedStatus();
+//        Assert.assertEquals(expected.stringValue(), current.stringValue());
 
     }
 
