@@ -12,26 +12,38 @@ public class interView {
     }
 
 
-    /*
-    public static String[] ticketConverter(String[][] inputTickets){
 
-        Ticket firstTicket = getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
-        String[][] local = inputTickets;
-        String firstDesintation = firstTicket.toCity;
-        System.out.println(firstTicket.stringValue());
+    public static String[] ticketConverter(Tickets inputTickets){
+        List<Ticket> outputTickets = new ArrayList<Ticket>();
 
-        Ticket secondTicket = getSmallestLexicalTicketsThatBeginsWith(firstDesintation, local);
-        String secondDestination = secondTicket[1];
-        System.out.println(Arrays.toString(secondTicket));
+        for(int i=0; i< inputTickets.tickets.length; i++){
+            Ticket t;
+            if(outputTickets.size() == 0){
+                t = getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
+                outputTickets.add(t);
+            }else{
+                t=getSmallestLexicalTicketsThatBeginsWith(outputTickets.get(outputTickets.size()-1).toCity, inputTickets);
+                if(t==null){
+                    break;
+                }else{
+                    outputTickets.add(t);
+                }
+            }
+        }
 
-        System.out.println(secondDestination);
-        System.out.println(Arrays.deepToString(inputTickets));
-        String[] thirdTicket = getSmallestLexicalTicketsThatBeginsWith(secondDestination, local);
-        System.out.println(Arrays.toString(thirdTicket));
+        String[] outputString = new String[outputTickets.size()+1];
+
+        for(int i=0; i<outputTickets.size(); i++){
+            outputString[i] = outputTickets.get(i).fromCity;
+        }
+        outputString[outputString.length-1] = outputTickets.get(outputTickets.size()-1).toCity;
+
+        System.out.println(Arrays.toString(outputString));
+
 
         return null;
     }
-    */
+
 
     public static Ticket getSmallestLexicalTicketsThatBeginsWith(String fromCity, Tickets originalTickets){
 
@@ -41,24 +53,27 @@ public class interView {
 
         for(int i=0; i< originalTickets.tickets.length; i++){
             Ticket t = originalTickets.tickets[i];
-            if(t.fromCity ==  fromCity){
-                if(output == null){
-                    output = t;
-                    indexOfSmallestTicket = i;
-                }
-                else{
-                    if(output.toCity.compareTo(t.toCity) > 0){
+
+            if(!t.getSelectedStatus()){
+
+                if(t.fromCity.equals(fromCity)){
+                    if(output == null){
                         output = t;
                         indexOfSmallestTicket = i;
+                    }
+                    else{
+                        if(output.toCity.compareTo(t.toCity) > 0){
+                            output = t;
+                            indexOfSmallestTicket = i;
+                        }
                     }
                 }
             }
 
-
         }
 
         //Set selected status of the smallest ticket:
-        System.out.println(indexOfSmallestTicket);
+//        System.out.println(indexOfSmallestTicket);
         if(indexOfSmallestTicket != -1){
             originalTickets.tickets[indexOfSmallestTicket].selected = true;
         }
@@ -90,6 +105,7 @@ class Ticket{
     public Ticket(String[] rawTicket){
         this.fromCity = rawTicket[0];
         this.toCity = rawTicket[1];
+        this.selected = false;
     }
 
     public String stringValue(){
@@ -115,7 +131,6 @@ class Tickets{
         Ticket[] t = new Ticket[rawTickets.length];
 
         for(int i=0; i< rawTickets.length; i++){
-//              System.out.println(Arrays.deepToString(rawTickets[i]));
             t[i] = new Ticket(rawTickets[i]);
         }
         this.tickets = t;
@@ -126,5 +141,13 @@ class Tickets{
             System.out.print(tickets[i].stringValue() + " ");
         }
         System.out.println();
+    }
+
+    public void ticketSelectedStatus(){
+        for(int i=0; i<tickets.length; i++){
+            System.out.print(tickets[i].getSelectedStatus() + " ");
+        }
+        System.out.println();
+
     }
 }
