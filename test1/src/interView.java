@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
 import java.util.*;
 
 /**
@@ -10,50 +12,55 @@ public class interView {
     }
 
 
+    /*
     public static String[] ticketConverter(String[][] inputTickets){
 
-//        String[] firstTicket = getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
-//        String[][] local = inputTickets;
-//        String firstDesintation = firstTicket[1];
-//        System.out.println(Arrays.toString(firstTicket));
-//
-//        String[] secondTicket = getSmallestLexicalTicketsThatBeginsWith(firstDesintation, local);
-//        String secondDestination = secondTicket[1];
-//        System.out.println(Arrays.toString(secondTicket));
-//
-//        System.out.println(secondDestination);
-//        System.out.println(Arrays.deepToString(inputTickets));
-//        String[] thirdTicket = getSmallestLexicalTicketsThatBeginsWith(secondDestination, local);
-//        System.out.println(Arrays.toString(thirdTicket));
+        Ticket firstTicket = getSmallestLexicalTicketsThatBeginsWith("JFK", inputTickets);
+        String[][] local = inputTickets;
+        String firstDesintation = firstTicket.toCity;
+        System.out.println(firstTicket.stringValue());
+
+        Ticket secondTicket = getSmallestLexicalTicketsThatBeginsWith(firstDesintation, local);
+        String secondDestination = secondTicket[1];
+        System.out.println(Arrays.toString(secondTicket));
+
+        System.out.println(secondDestination);
+        System.out.println(Arrays.deepToString(inputTickets));
+        String[] thirdTicket = getSmallestLexicalTicketsThatBeginsWith(secondDestination, local);
+        System.out.println(Arrays.toString(thirdTicket));
 
         return null;
     }
+    */
 
-    public static Ticket getSmallestLexicalTicketsThatBeginsWith(String fromCity, String[][]  inputTickets){
+    public static Ticket getSmallestLexicalTicketsThatBeginsWith(String fromCity, Tickets originalTickets){
 
         Ticket output = null;
-
-        //Read the raw tickets and store them with Ticket class
-        Tickets origionalTickets  = new Tickets(inputTickets);
-
-        for(int i=0; i< origionalTickets.tickets.length; i++){
-            Ticket t = origionalTickets.tickets[i];
-//            System.out.print("FROM: " + t.fromCity + " TO: ");
-//            System.out.println(t.toCity);
+        Integer indexOfSmallestTicket = -1;
 
 
+        for(int i=0; i< originalTickets.tickets.length; i++){
+            Ticket t = originalTickets.tickets[i];
             if(t.fromCity ==  fromCity){
                 if(output == null){
                     output = t;
+                    indexOfSmallestTicket = i;
                 }
                 else{
                     if(output.toCity.compareTo(t.toCity) > 0){
                         output = t;
+                        indexOfSmallestTicket = i;
                     }
                 }
             }
 
 
+        }
+
+        //Set selected status of the smallest ticket:
+        System.out.println(indexOfSmallestTicket);
+        if(indexOfSmallestTicket != -1){
+            originalTickets.tickets[indexOfSmallestTicket].selected = true;
         }
 
         //Returns an empty String[] if no tickets matches.
@@ -71,11 +78,13 @@ public class interView {
 //User local struct/class to store the ticket:
 class Ticket{
     public String fromCity, toCity;
+    public Boolean selected;
 
 
     public Ticket(String fromCity, String toCity){
         this.fromCity = fromCity;
         this.toCity = toCity;
+        this.selected = false;
     }
 
     public Ticket(String[] rawTicket){
@@ -85,8 +94,17 @@ class Ticket{
 
     public String stringValue(){
         return("["+ this.fromCity + " , "+ this.toCity+"]");
-
     }
+
+    public Boolean getSelectedStatus(){
+        return this.selected;
+    }
+
+    public void setSelected(){
+        this.selected = true;
+    }
+
+
 }
 
 class Tickets{
@@ -101,5 +119,12 @@ class Tickets{
             t[i] = new Ticket(rawTickets[i]);
         }
         this.tickets = t;
+    }
+
+    public void ticketsValue(){
+        for(int i=0; i<tickets.length; i++){
+            System.out.print(tickets[i].stringValue() + " ");
+        }
+        System.out.println();
     }
 }

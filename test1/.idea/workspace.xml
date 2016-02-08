@@ -27,9 +27,17 @@
           <file leaf-file-name="interView.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/interView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.16324535">
-                  <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-                  <folding />
+                <state vertical-scroll-proportion="0.7174975">
+                  <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2675#2676#0" expanded="true" />
+                    <element signature="e#2742#2743#0" expanded="true" />
+                    <element signature="e#2783#2784#0" expanded="true" />
+                    <element signature="e#2819#2820#0" expanded="true" />
+                    <element signature="e#2851#2852#0" expanded="true" />
+                    <element signature="e#2887#2888#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -42,11 +50,11 @@
             <entry file="file://$PROJECT_DIR$/src/interView.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+                  <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
                   <folding>
-                    <element signature="e#129#130#0" expanded="true" />
-                    <element signature="e#182#183#0" expanded="true" />
-                    <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+                    <element signature="e#188#189#0" expanded="true" />
+                    <element signature="e#241#242#0" expanded="true" />
+                    <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -55,8 +63,8 @@
           <file leaf-file-name="interViewTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/interViewTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.427175">
-                  <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.4183773">
+                  <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -622,34 +630,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 20m 42s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 53m 30s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 21m 52s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 54m 17s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 22m 10s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 56m 36s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 22m 36s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 56m 49s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 23m 06s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 57m 34s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 23m 54s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 58m 29s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 24m 41s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 59m 13s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 24m 57s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 59m 45s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 25m 16s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 14h 00m 26s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 13h 25m 26s.xml">
+    <history-entry file="interViewTest_testGetSmallestLexicalTicketsThatBeginsWith - 2016.02.08 at 14h 00m 40s.xml">
       <configuration name="interViewTest.testGetSmallestLexicalTicketsThatBeginsWith" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -708,9 +716,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -730,9 +738,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -752,9 +760,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -774,9 +782,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -796,9 +804,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -818,9 +826,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -840,9 +848,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -860,19 +868,19 @@
     <entry file="file://$PROJECT_DIR$/src/interView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <marker date="1454966642000" expanded="true" signature="1416:1522" placeholder="//..." />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <marker date="1454968775000" expanded="true" signature="319:1065" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/interViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.427175">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.4183773">
+          <caret line="46" column="91" selection-start-line="46" selection-start-column="91" selection-end-line="46" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
