@@ -19,12 +19,20 @@ public class interViewTest extends TestCase {
 
     }
 
+    public void testTicketConverter22() throws Exception{
+        String[][] inputTickets;
+        inputTickets =  new String[][]{{"JFK","SFO"},{"JFK","ATL"},{"SFO","ATL"},{"ATL","JFK"},{"ATL","SFO"}};
+        Tickets originalTickets  = new Tickets(inputTickets);
+        interView.ticketConverter2(originalTickets);
+    }
+
     public void testTicketConverter() throws Exception {
         String[][] inputTickets;
         inputTickets =  new String[][]{{"JFK","SFO"},{"JFK","ATL"},{"SFO","ATL"},{"ATL","JFK"},{"ATL","SFO"}};
         String[] expected = {"JFK", "MUC", "LHR", "SFO", "SJC"};
         Tickets originalTickets  = new Tickets(inputTickets);
         interView.ticketConverter(originalTickets);
+        interView.ticketConverter2(originalTickets);
     }
 
     public void testTicketConverter2() throws Exception {

@@ -1,41 +1,10 @@
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
+package com.company;
 import java.util.*;
 
-/**
- * Created by yanxia on 2/5/16.
- */
-
-
-
-public class interView {
-
-    public static void main(String[] args){
-        System.out.println("I am using java");
-    }
-
-
-    public static List<String> ticketConverter2(Tickets inputTickets){
-        TreeSet<Ticket> orderdTickets = new TreeSet<Ticket>(new TicketComparator());
-
-        for(int i=0; i< inputTickets.tickets.length; i++){
-            orderdTickets.add(inputTickets.tickets[i]);
-        }
-
-//        for(Ticket t:orderdTickets){
-//            if(t.fromCity=="JFK"){
-//                System.out.println(t.stringValue());
-//            }
-//        }
-
-
-        Ticket t1 = inputTickets.tickets[0];
-        Ticket t2 = inputTickets.tickets[1];
-//        SortedSet<Ticket>  ticketSet = orderdTickets.subSet(t1, t2);
-//        System.out.println(ticketSet);
-
-
-        return null;
+public class Solution {
+    public List<String> findItinerary(String[][] tickets) {
+        Tickets originalTickets  = new Tickets(tickets);
+        return ticketConverter(originalTickets);
     }
 
     public static List<String> ticketConverter(Tickets inputTickets){
@@ -127,6 +96,7 @@ public class interView {
 
 }
 
+
 //User local struct/class to store the ticket:
 class Ticket{
     public String fromCity, toCity;
@@ -157,6 +127,7 @@ class Ticket{
         this.selected = true;
     }
 
+
 }
 
 class Tickets{
@@ -186,17 +157,4 @@ class Tickets{
         System.out.println();
 
     }
-}
-
-class TicketComparator implements Comparator<Ticket>{
-
-    @Override
-    public int compare(Ticket t1, Ticket t2){
-        if(t1.toCity.compareTo(t2.toCity) > 0){
-            return 1;
-        }else{
-            return -1;
-        }
-    }
-
 }
