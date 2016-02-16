@@ -47,6 +47,7 @@ public class Medium_Level_String {
     /*
     * Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.).
     * So "xxyz" counts but "x.xyz" does not.
+    * NOT PASSING!
     **/
     public static boolean xyzThere(String str) {
 
@@ -74,5 +75,23 @@ public class Medium_Level_String {
 
     }
 
+    /*
+    * Return true if the given string contains a "bob" string, but where the middle 'o' char can be any char.
+    * PASSED!
+    **/
+    public static boolean bobThere(String str) {
+        if( str.length() < 3)
+            return false;
+        else{
+            for(int i=0; i< str.length()-2; i++){
+                if(str.charAt(i) == 'b'){
+                    if(str.charAt(i+2) == 'b')
+                        return true;
+                }
+            }
+        }
+
+        return false;
+    }
 
 }
