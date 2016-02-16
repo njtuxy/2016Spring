@@ -3,6 +3,7 @@ package com.company;
 /**
  * Created by yanxia on 2/15/16.
  */
+
 public class Medium_Level_String {
 
     /**
@@ -134,5 +135,30 @@ public class Medium_Level_String {
             return true;
         }
     }
+
+
+    /*
+    * Given two strings, a and b, create a bigger string made of the first char of a, the first char of b,
+    * the second char of a, the second char of b, and so on.
+    * Any leftover chars go at the end of the result.
+    * PASSING!!
+    */
+
+    public static String mixString(String a, String b) {
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i< a.length(); i++){
+            sb.append(a.charAt(i));
+            if(i<b.length())
+                sb.append(b.charAt(i));
+        }
+
+        if(a.length() >= b.length()){
+            return sb.toString();
+        }else{
+            return sb.append(b.substring(a.length(), b.length())).toString();
+        }
+    }
+
+
 }
 

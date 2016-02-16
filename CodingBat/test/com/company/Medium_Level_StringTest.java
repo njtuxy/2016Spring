@@ -45,4 +45,12 @@ public class Medium_Level_StringTest {
     public void testXyBalance() throws Exception {
         assertTrue(Medium_Level_String.xyBalance("aaxbby"));
     }
+
+    @Test
+    public void testMixString() throws Exception {
+        System.out.println(Medium_Level_String.mixString("ab", "cd"));
+        System.out.println(Medium_Level_String.mixString("axc", "b"));
+        System.out.println(Medium_Level_String.mixString("ab", "zyxq"));
+
+    }
 }
