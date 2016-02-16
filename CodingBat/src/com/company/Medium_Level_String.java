@@ -94,4 +94,45 @@ public class Medium_Level_String {
         return false;
     }
 
+    /*
+    * We'll say that a String is xy-balanced if for all the 'x' chars in the string,there exists a 'y' char somewhere later in the string.
+    * So "xxy" is balanced,but "xyx" is not.
+      * One 'y' can balance multiple 'x's. Return true if the given string is xy-balanced.
+      * PASSED!
+    */
+    public static boolean xyBalance(String str) {
+        int indexOfFirstYFromEnd = -1;
+        boolean foundY = false;
+        boolean foundX = false;
+        boolean foundXAfterY = false;
+
+        for(int i=str.length()-1; i>0; i--){
+            //Iterate from the end of the string, and try to find the fist 'y'
+            if(str.charAt(i) == 'y'){
+                foundY = true;
+                //when find a char 'y', save the index number of it.
+                indexOfFirstYFromEnd = i;
+                //quit the loop since we don't need to find the second 'y' from the back.
+                break;
+            }
+        }
+
+        if(foundY){
+            for(int j=indexOfFirstYFromEnd + 1; j<str.length(); j++){
+                if(str.charAt(j) == 'x'){
+                    return  false;
+                }
+            }
+            return true;
+        }else{
+            for(int i= 0; i< str.length(); i++){
+                //Iterate from the end of the string, and try to find 'x'
+                if(str.charAt(i) == 'x'){
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
 }
+

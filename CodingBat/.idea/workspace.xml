@@ -27,8 +27,8 @@
           <file leaf-file-name="Medium_Level_StringTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/company/Medium_Level_StringTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.39235413">
-                  <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+                <state vertical-scroll-proportion="0.7090909">
+                  <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -43,8 +43,8 @@
           <file leaf-file-name="Medium_Level_String.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/Medium_Level_String.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31589538">
-                  <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.25454545">
+                  <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -177,7 +177,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Medium_Level_StringTest.testXyzThere">
+  <component name="RunManager" selected="JUnit.Medium_Level_StringTest.testXyBalance">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -260,6 +260,32 @@
       <option name="PACKAGE_NAME" value="com.company" />
       <option name="MAIN_CLASS_NAME" value="com.company.Medium_Level_StringTest" />
       <option name="METHOD_NAME" value="testXyzThere" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Medium_Level_StringTest.testXyBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="CodingBat" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Medium_Level_StringTest" />
+      <option name="METHOD_NAME" value="testXyBalance" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -507,21 +533,26 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testCatDog" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testEndOther" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyzThere" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyBalance" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyzThere" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testCatDog" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testEndOther" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyBalance" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyzThere" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testCatDog" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testEndOther" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="539949f6-f7ad-455f-ae79-8d7072fc9ac0" name="Default" comment="" />
@@ -532,35 +563,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 04m 07s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 11h 39m 37s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 05m 48s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 11h 56m 44s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 38m 53s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 31m 12s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 40m 12s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 31m 37s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 40m 32s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 32m 06s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 40m 56s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 34m 20s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 41m 48s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 35m 23s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 50m 46s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 39m 17s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 51m 38s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 43m 37s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 20h 53m 16s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testXyBalance - 2016.02.16 at 13h 53m 38s.xml">
+      <configuration name="Medium_Level_StringTest.testXyBalance" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -574,7 +605,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26181355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -591,12 +622,20 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -615,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/Medium_Level_StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39235413">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.7090909">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -625,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Medium_Level_String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31589538">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.25454545">
+          <caret line="100" column="15" selection-start-line="100" selection-start-column="15" selection-end-line="100" selection-end-column="15" />
           <folding />
         </state>
       </provider>

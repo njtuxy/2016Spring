@@ -40,4 +40,9 @@ public class Medium_Level_StringTest {
 //        assertTrue(Medium_Level_String.xyzThere("abcxyz"));
         assertTrue(Medium_Level_String.xyzThere("xyz.abc"));
     }
+
+    @Test
+    public void testXyBalance() throws Exception {
+        assertTrue(Medium_Level_String.xyBalance("aaxbby"));
+    }
 }
