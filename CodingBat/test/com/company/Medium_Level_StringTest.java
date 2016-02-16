@@ -34,7 +34,10 @@ public class Medium_Level_StringTest {
 //        assertTrue(Medium_Level_String.xyzThere("xyz"));
 //        assertTrue(Medium_Level_String.xyzThere("xyzaa"));
 //        assertTrue(Medium_Level_String.xyzThere("abcxyz"));
-        assertTrue(Medium_Level_String.xyzThere("xyz.abc"));
+//        assertTrue(Medium_Level_String.xyzThere("xyz.abc"));
 //        assertFalse(Medium_Level_String.xyzThere("abc.xyz"));
+//        assertFalse(Medium_Level_String.xyzThere("abc.xyz"));
+//        assertTrue(Medium_Level_String.xyzThere("abcxyz"));
+        assertTrue(Medium_Level_String.xyzThere("xyz.abc"));
     }
 }
