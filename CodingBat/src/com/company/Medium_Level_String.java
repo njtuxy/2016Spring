@@ -8,11 +8,11 @@ public class Medium_Level_String {
     /**
      * Return true if the string 'cat' and 'dog' appear the same number of times in the given string
      */
-    
+
     public static boolean catDog(String str){
         int catCount = 0;
         int dogCount = 0;
-        for(int i=0; i<str.length()-2; i+=3){                                   //iterate over the string, step 3 characters every time.
+        for(int i=0; i<str.length()-2; i++){                                   //iterate over the string, step 3 characters every time.
             String temp = str.substring(i, i+3);                              //store the substring in a temporary variable.
             if(temp.equals("cat"))                                                  //add cat count if 'cat' found
                 catCount ++;

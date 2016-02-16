@@ -35,8 +35,8 @@
       <file leaf-file-name="Medium_Level_String.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Medium_Level_String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25531915">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.68085104">
+              <caret line="22" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/company/Medium_Level_StringTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,7 +179,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Medium_Level_StringTest.testXyzThere">
+  <component name="RunManager" selected="JUnit.Medium_Level_StringTest.testCatDog">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -517,9 +517,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyzThere" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testEndOther" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testCatDog" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testCatDog" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testXyzThere" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Medium_Level_StringTest.testEndOther" />
       </list>
     </recent_temporary>
   </component>
@@ -534,8 +534,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 17h 11m 17s.xml">
-      <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
+    <history-entry file="Medium_Level_StringTest_testCatDog - 2016.02.15 at 19h 38m 26s.xml">
+      <configuration name="Medium_Level_StringTest.testCatDog" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Medium_Level_StringTest_testXyzThere - 2016.02.15 at 17h 13m 04s.xml">
       <configuration name="Medium_Level_StringTest.testXyzThere" configurationId="JUnit" />
@@ -618,7 +618,7 @@
     <entry file="file://$PROJECT_DIR$/test/com/company/Medium_Level_StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="60" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Medium_Level_String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25531915">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.68085104">
+          <caret line="22" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
