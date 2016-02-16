@@ -159,6 +159,58 @@ public class Medium_Level_String {
         }
     }
 
+    /*
+    * Given a string and an int n, return a string made of n repetitions of the last n characters of the string.
+    * You may assume that n is between 0 and the length of the string, inclusive.
+    *
+    **/
 
+    public static String repeatEnd(String str, int n) {
+        StringBuilder sb = new StringBuilder();
+        if(n==0) return "";
+        String pattern = str.substring(str.length()-n, str.length());
+        for(int i=0; i<n; i++){
+            sb.append(pattern);
+        }
+        return sb.toString();
+    }
+
+    /*
+    * Given a string and an int n, return a string made of the first n characters of the string,
+    * followed by the first n-1 characters of the string, and so on.
+    * You may assume that n is between 0 and the length of the string, inclusive (i.e. n >= 0 and n <= str.length()).
+    *
+    */
+
+    public static String repeatFront(String str, int n) {
+        StringBuilder sb = new StringBuilder();
+
+        if(n==0) return "";
+        String pattern = str.substring(0, n);
+
+        for(int i=pattern.length(); i>0; i--){
+            sb.append(pattern.substring(0, i));
+        }
+
+        return sb.toString();
+
+    }
+
+    /*
+    * Given two strings, word and a separator sep, return a big string made of count
+    * occurrences of the word, separated by the separator string.
+    * PASSED!
+    */
+
+    public static String repeatSeparator(String word, String sep, int count) {
+        if(count == 0) return "";
+        StringBuilder sb = new StringBuilder();
+        for(int i=0; i<count-1; i++){
+            sb.append(word);
+            sb.append(sep);
+        }
+        sb.append(word);
+        return sb.toString();
+    }
 }
 

@@ -53,4 +53,17 @@ public class Medium_Level_StringTest {
         System.out.println(Medium_Level_String.mixString("ab", "zyxq"));
 
     }
+
+    @Test
+    public void testRepeatEnd() throws Exception {
+        assertEquals("llollollo", Medium_Level_String.repeatEnd("Hello", 3));
+        assertEquals("lolo", Medium_Level_String.repeatEnd("Hello", 2));
+        assertEquals("o", Medium_Level_String.repeatEnd("Hello", 1));
+    }
+
+    @Test
+    public void testRepeatFront() throws Exception {
+        assertEquals("ChocChoChC", Medium_Level_String.repeatFront("Chocolate", 4));
+
+    }
 }
