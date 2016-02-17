@@ -12,6 +12,11 @@ public class Hard_Level_StringTest {
     @Test
     public void testCountYZ() throws Exception {
         assertEquals(2, Hard_Level_String.countYZ("fez day"));
-
     }
+
+    @Test
+    public void testNotReplace() throws Exception {
+        Hard_Level_String.notReplace("abc def");
+    }
+
 }
