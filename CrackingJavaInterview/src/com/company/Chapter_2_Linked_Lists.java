@@ -27,7 +27,6 @@ class SingleLinkedList{
 
     //Constructor for Integer array to linked list
     public SingleLinkedList(int[] input){
-
         //Read data and save in nodes.
         for(int e:input){
             Node node = new Node(e, null);
@@ -47,7 +46,27 @@ class SingleLinkedList{
         temp = head;
         //Iterate over the node until the pointer is null
         while (temp!=null){
+            System.out.print(temp.value);
+            System.out.print(" ");
             temp = temp.next;
+        }
+        System.out.println();
+    }
+
+    public void removeValueFromList(int valueToRemove){
+        temp = head;
+        Node temp2 = temp.next;
+        if (head.value ==valueToRemove)
+            head=head.next;
+        else{
+            Node temp1 = temp;
+            if(temp1.next!=null){
+                temp = temp1;
+                temp1 = temp1.next;
+                if(temp1.value ==valueToRemove){
+                    temp.next = temp1.next;
+                }
+            }
         }
     }
 

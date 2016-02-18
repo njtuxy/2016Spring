@@ -21,7 +21,7 @@
     <favorites_list name="CrackingJavaInterview" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47">
+    <splitter split-orientation="horizontal" split-proportion="0.44454545">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
@@ -50,8 +50,8 @@
           <file leaf-file-name="Chapter_2_Linked_Lists.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/Chapter_2_Linked_Lists.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28169015">
-                  <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.21005386">
+                  <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
                   <folding>
                     <element signature="e#281#282#0" expanded="true" />
                     <element signature="e#313#314#0" expanded="true" />
@@ -67,8 +67,8 @@
           <file leaf-file-name="Chapter_1_Arrays_And_StringsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.1971831">
-                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.9281867">
+                  <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -579,15 +579,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 13h 42m 24s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 13h 42m 58s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 13h 43m 33s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 13h 46m 04s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
     </history-entry>
@@ -603,11 +594,20 @@
     <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 13h 50m 53s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testCompressString - 2016.02.17 at 14h 55m 55s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testCompressString" configurationId="JUnit" />
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 15h 07m 08s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testCompressString - 2016.02.17 at 15h 27m 03s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testCompressString" configurationId="JUnit" />
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 15h 07m 48s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 15h 08m 08s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 15h 08m 32s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_TestSingleLinkedList - 2016.02.18 at 15h 08m 44s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.TestSingleLinkedList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -616,19 +616,19 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25287357" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.48761904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.4888889" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49553" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.51238096" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2361111" sideWeight="0.51111114" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -643,7 +643,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -700,16 +700,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1971831">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.9281867">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Chapter_2_Linked_Lists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28169015">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21005386">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="e#281#282#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />

@@ -31,5 +31,11 @@ public class Chapter_1_Arrays_And_StringsTest {
         int[] input = {1,2,3};
         SingleLinkedList list = new SingleLinkedList(input);
         list.printLinkedList();
+        list.removeValueFromList(2);
+        list.printLinkedList();
+        list.removeValueFromList(1);
+        list.printLinkedList();
+        list.removeValueFromList(3);
+        list.printLinkedList();
     }
 }
