@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.LinkedList;
+
 /**
  * Created by yanxia on 2/17/16.
  */
@@ -39,6 +41,18 @@ public class Chapter_1_Arrays_And_Strings {
         return sb.toString();
 
     }
+
+    /*
+    *Implement a method to perform basic string compression using the counts of repeated characters.
+     *  For example, the string aabcccccaaa would become a2blc5a3.
+     *  If the "compressed" string would not become smaller than the original string, your method should return the original string.
+     */
+
+    public static String compressString(String input){
+        return "";
+    }
+
+
 
 
 

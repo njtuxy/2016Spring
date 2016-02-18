@@ -18,4 +18,18 @@ public class Chapter_1_Arrays_And_StringsTest {
         assertEquals("", Chapter_1_Arrays_And_Strings.replaceStringWithSpecialChar(""));
         assertEquals("Mr%20John%20%20Smith", Chapter_1_Arrays_And_Strings.replaceStringWithSpecialChar("Mr John  Smith"));
     }
+
+    @Test
+    public void testCompressString() throws Exception {
+//        assertEquals("a2c1d1", Chapter_1_Arrays_And_Strings.compressString("aacd"));
+        assertEquals("a1b1c1d1", Chapter_1_Arrays_And_Strings.compressString("abcd"));
+
+    }
+
+    @Test
+    public void TestSingleLinkedList() throws Exception{
+        int[] input = {1,2,3};
+        SingleLinkedList list = new SingleLinkedList(input);
+        list.printLinkedList();
+    }
 }
