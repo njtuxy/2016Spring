@@ -1,0 +1,46 @@
+public static int getHeight(TreeNode root){
+	if(root = null) return 0; //Base case
+
+	return Math.max(getHeight(root.left), getHeight(root.right)) + 1;
+}
+
+public static boolean isBalanced(TreeNode root){
+	if(root = null) return true; //Base case
+	int diff = getHeight(root.left) - getHeight(root.right);
+
+	if(Math.abs(diff) > 1){
+		return false;
+	}else{
+		return isBalanced(root.left) && isBalanced(root.right);
+	}
+}
+
+//Do search in one round:
+public static int checkHeight(TreeNode root){
+	if(root == null){
+		return 0;
+	}
+
+	/*check if left is balanced*/
+	int leftHeight = checkHeight(root.left);
+	if(leftHeight == -1)
+		return -1; //Not balanced
+
+	/*check if right is balanced*/
+	int rightHeight = checkHeight(root.right);
+	if(rightHeight == -1)
+		return -1;
+
+	/*check if current node is balanced*/
+	int heightDiff = leftHeight - rightHeight;
+	if(Math.abs(heightDiff) > 1){
+		return -1; //Not balanced
+	}else{
+		/*return height*/
+		return Math.max(leftHeight, rightHeight) + 1;
+	}
+}
+
+public static boolean isBalanced(TreeNode root){
+	 return !(checkHeight(root) ==  -1);
+}
