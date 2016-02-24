@@ -101,4 +101,40 @@ public class BinarySearchTree {
         }
     }
 
+    //Return the number of the nodes int the tree:
+    public int sizeWithRecursion(){
+        return sizeWithRecursion(root);
+    }
+
+    public int sizeWithQueue(){
+        return sizeWithQueue(root);
+    }
+
+    private int sizeWithRecursion(Node node){
+        if(node == null){
+            return 0;
+        }else{
+            return sizeWithRecursion(node.left) + 1 + sizeWithRecursion(node.right);
+        }
+    }
+
+    private int sizeWithQueue(Node node){
+        Queue<Node> queue = new LinkedList<Node>();
+        Node temp;
+        int count = 0;
+        if(node != null){
+            queue.add(node);
+        }
+        while(!queue.isEmpty()){
+            count++;
+            temp = queue.poll();
+            if(temp.left!=null)
+                queue.add((temp.left));
+            if(temp.right!=null)
+                queue.add(temp.right);
+        }
+        return count;
+    }
+
+
 }
