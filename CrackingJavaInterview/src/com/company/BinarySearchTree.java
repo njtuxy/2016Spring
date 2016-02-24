@@ -136,5 +136,23 @@ public class BinarySearchTree {
         return count;
     }
 
+    /**
+     *  Get the max depth of the tree
+     */
+    public int getMaxDepth(){
+        return getMaxDepth(root);
+    }
+
+    private int getMaxDepth(Node node){
+        if(node==null)
+            return 0;
+        if(node.left ==null && node.right==null)
+            return 1;
+        else
+            return Math.max(getMaxDepth(node.left), getMaxDepth(node.right))+1;
+
+
+    }
+
 
 }
