@@ -150,9 +150,38 @@ public class BinarySearchTree {
             return 1;
         else
             return Math.max(getMaxDepth(node.left), getMaxDepth(node.right))+1;
-
-
     }
+
+    /**
+     *  Get the min value in the tree
+     */
+    public int getMinValue(){
+        return getMinValue(root);
+    }
+
+    //Min value is in the left-most leaf
+    private int getMinValue(Node node){
+        Node current = node;
+        while(current.left !=null)
+            current = current.left;
+        return current.data;
+    }
+
+    /**
+     *  Get the max value in the tree
+     */
+    public int getMaxValue(){
+        return getMaxValue(root);
+    }
+
+    //Min value is in the left-most leaf
+    private int getMaxValue(Node node){
+        Node current = node;
+        while(current.right !=null)
+            current = current.right;
+        return current.data;
+    }
+
 
 
 }
