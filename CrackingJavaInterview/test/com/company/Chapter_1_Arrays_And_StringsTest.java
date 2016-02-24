@@ -89,7 +89,7 @@ public class Chapter_1_Arrays_And_StringsTest {
         bst.insert(6);
         bst.insert(7);
 //        bst.BFSPrint();
-        System.out.println(bst.getMaxValue());
+        bst.inOrderPrint();
     }
 
 }

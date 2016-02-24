@@ -182,6 +182,23 @@ public class BinarySearchTree {
         return current.data;
     }
 
+    /**
+     *  Print the node value in the "inorder" order:
+     */
+    public void inOrderPrint(){
+        inOrderPrint(root);
+    }
+
+    private void inOrderPrint(Node node) {
+        if (node == null) return;
+        inOrderPrint(node.left);
+        System.out.print(node.data + "  ");
+        inOrderPrint(node.right);
+
+    }
+
+
+
 
 
 }
