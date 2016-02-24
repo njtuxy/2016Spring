@@ -1,0 +1,81 @@
+class BinarySearchTree{
+
+	public Node root;
+
+	//------ start of node class ------
+	private static class Node{
+		Node left;
+		Node right;
+		int data;
+
+		/** constructer for a new node*/
+	public Node(int newData){
+			data = newData;
+			left = null;
+			right = null;
+		}
+	}//------ end of node class ------
+
+	/**
+	* Creates an empty binary tree
+	*/
+	public BinarySearchTree(){
+		root = null;
+	}
+
+	/**
+	* Returns true if the given target is in the binary tree.
+	*/
+
+	public boolean lookUp(int data){
+		return lookUp(root, data)
+	}
+
+	//look up method:
+	private boolean lookUp(Node node, int data){
+		if(node == null)
+			return(false);
+
+		if(root.data == data)
+			return(true);
+
+		if(data <= node.data)
+			return lookUp(root.left, data);
+		else
+			return lookUp(root.right, data);
+	}
+
+	/**
+	*	Insert the given data into the binary tree.
+	*/
+
+	public void insert(int data){
+		root = insert(root, data)
+	}
+
+	private Node insert(Node node, int data){
+		
+		if(node == null) {
+			node = new Node(data);
+		}
+		else{
+			if(data <= node.data)
+			{
+				node.left = insert(node.left,data);
+			}
+		else
+			{	
+				node.right = insert(node.right, data);
+			}
+			
+
+		}
+
+		return(node);
+	}
+
+
+}
+
+
+

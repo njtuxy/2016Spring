@@ -76,4 +76,13 @@ public class Chapter_1_Arrays_And_StringsTest {
 //        assertEquals("a3b2c2",Chapter_1_Arrays_And_Strings.compression("aaabbcc"));
     }
 
+    @Test
+    public  void testBinaryTree() throws Exception{
+        BinarySearchTree bst = new BinarySearchTree();
+        bst.insert(3);
+        bst.insert(2);
+        bst.insert(4);
+        bst.BFSPrint();
+    }
+
 }
