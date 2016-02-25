@@ -26,6 +26,10 @@ public class BinarySearchTree {
 
     private Node root;
 
+    public Node getRoot(){
+        return root;
+    }
+
     BinarySearchTree(){
         root = null;
     }
@@ -292,6 +296,22 @@ public class BinarySearchTree {
         return node;
     }
 
+
+    public static boolean sameTree(Node node1, Node node2){
+
+        if(node1 == null && node2 == null){
+            return true;
+        }else{
+            if(node1==null || node2 == null)
+                return false;
+        }
+
+        if(node1.data == node2.data ){
+                return sameTree(node1.left, node2.left) && sameTree(node1.right, node2.right);
+        }
+
+        return false;
+    }
 
 
 }

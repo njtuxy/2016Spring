@@ -37,36 +37,38 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.72527474">
-                  <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
+                <state vertical-scroll-proportion="0.6703297">
+                  <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#514#515#0" expanded="true" />
-                    <element signature="e#541#542#0" expanded="true" />
-                    <element signature="e#579#580#0" expanded="true" />
-                    <element signature="e#620#621#0" expanded="true" />
-                    <element signature="e#1079#1080#0" expanded="true" />
-                    <element signature="e#1120#1121#0" expanded="true" />
-                    <element signature="e#1534#1535#0" expanded="true" />
-                    <element signature="e#1564#1565#0" expanded="true" />
-                    <element signature="e#1744#1750#0" expanded="true" />
-                    <element signature="e#2329#2330#0" expanded="true" />
-                    <element signature="e#2375#2376#0" expanded="true" />
-                    <element signature="e#2408#2409#0" expanded="true" />
-                    <element signature="e#2450#2451#0" expanded="true" />
-                    <element signature="e#2748#2754#0" expanded="true" />
-                    <element signature="e#3217#3218#0" expanded="true" />
-                    <element signature="e#3257#3258#0" expanded="true" />
-                    <element signature="e#3598#3599#0" expanded="true" />
-                    <element signature="e#3638#3639#0" expanded="true" />
-                    <element signature="e#3940#3941#0" expanded="true" />
-                    <element signature="e#3980#3981#0" expanded="true" />
-                    <element signature="e#4301#4302#0" expanded="true" />
-                    <element signature="e#4335#4336#0" expanded="true" />
-                    <element signature="e#5840#5841#0" expanded="true" />
-                    <element signature="e#5875#5876#0" expanded="true" />
-                    <element signature="e#6394#6395#0" expanded="true" />
-                    <element signature="e#6433#6434#0" expanded="true" />
+                    <element signature="e#517#518#0" expanded="true" />
+                    <element signature="e#544#545#0" expanded="true" />
+                    <element signature="e#569#570#0" expanded="true" />
+                    <element signature="e#596#597#0" expanded="true" />
+                    <element signature="e#634#635#0" expanded="true" />
+                    <element signature="e#675#676#0" expanded="true" />
+                    <element signature="e#1134#1135#0" expanded="true" />
+                    <element signature="e#1175#1176#0" expanded="true" />
+                    <element signature="e#1589#1590#0" expanded="true" />
+                    <element signature="e#1619#1620#0" expanded="true" />
+                    <element signature="e#1799#1805#0" expanded="true" />
+                    <element signature="e#2384#2385#0" expanded="true" />
+                    <element signature="e#2430#2431#0" expanded="true" />
+                    <element signature="e#2463#2464#0" expanded="true" />
+                    <element signature="e#2505#2506#0" expanded="true" />
+                    <element signature="e#2803#2809#0" expanded="true" />
+                    <element signature="e#3272#3273#0" expanded="true" />
+                    <element signature="e#3312#3313#0" expanded="true" />
+                    <element signature="e#3653#3654#0" expanded="true" />
+                    <element signature="e#3693#3694#0" expanded="true" />
+                    <element signature="e#3995#3996#0" expanded="true" />
+                    <element signature="e#4035#4036#0" expanded="true" />
+                    <element signature="e#4356#4357#0" expanded="true" />
+                    <element signature="e#4390#4391#0" expanded="true" />
+                    <element signature="e#5895#5896#0" expanded="true" />
+                    <element signature="e#5930#5931#0" expanded="true" />
+                    <element signature="e#6449#6450#0" expanded="true" />
+                    <element signature="e#6488#6489#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -89,8 +91,8 @@
           <file leaf-file-name="Chapter_1_Arrays_And_StringsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65562916">
-                  <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.6821192">
+                  <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -627,34 +629,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 48m 08s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 53m 28s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 50m 25s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 54m 24s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 53m 09s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 55m 31s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 53m 16s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 55m 42s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 53m 25s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 56m 58s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 55m 34s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 57m 13s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 04m 27s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 57m 52s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 04m 43s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 57m 59s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 06m 52s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 58m 19s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 07m 55s.xml">
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 58m 25s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -669,7 +671,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.26181355" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="947" y="388" width="1211" height="945" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.26181355" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="1244" y="369" width="1211" height="852" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22083333" sideWeight="0.47521368" order="0" side_tool="false" content_ui="combo" />
@@ -699,7 +701,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -860,47 +862,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72527474">
-          <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1744#1750#0" expanded="true" />
-            <element signature="e#2329#2330#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2408#2409#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-            <element signature="e#2748#2754#0" expanded="true" />
-            <element signature="e#3217#3218#0" expanded="true" />
-            <element signature="e#3257#3258#0" expanded="true" />
-            <element signature="e#3598#3599#0" expanded="true" />
-            <element signature="e#3638#3639#0" expanded="true" />
-            <element signature="e#3940#3941#0" expanded="true" />
-            <element signature="e#3980#3981#0" expanded="true" />
-            <element signature="e#4301#4302#0" expanded="true" />
-            <element signature="e#4335#4336#0" expanded="true" />
-            <element signature="e#5840#5841#0" expanded="true" />
-            <element signature="e#5875#5876#0" expanded="true" />
-            <element signature="e#6394#6395#0" expanded="true" />
-            <element signature="e#6433#6434#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6821192">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65562916">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.6703297">
+          <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1799#1805#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#2505#2506#0" expanded="true" />
+            <element signature="e#2803#2809#0" expanded="true" />
+            <element signature="e#3272#3273#0" expanded="true" />
+            <element signature="e#3312#3313#0" expanded="true" />
+            <element signature="e#3653#3654#0" expanded="true" />
+            <element signature="e#3693#3694#0" expanded="true" />
+            <element signature="e#3995#3996#0" expanded="true" />
+            <element signature="e#4035#4036#0" expanded="true" />
+            <element signature="e#4356#4357#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+            <element signature="e#5895#5896#0" expanded="true" />
+            <element signature="e#5930#5931#0" expanded="true" />
+            <element signature="e#6449#6450#0" expanded="true" />
+            <element signature="e#6488#6489#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
