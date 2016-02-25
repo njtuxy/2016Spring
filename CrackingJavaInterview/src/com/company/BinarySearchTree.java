@@ -1,7 +1,9 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by yanxia on 2/24/16.
@@ -72,6 +74,7 @@ public class BinarySearchTree {
         }
         return node;
     }
+
 
     public void BFSPrint(){
         BFSPrint(root);
@@ -194,8 +197,68 @@ public class BinarySearchTree {
         inOrderPrint(node.left);
         System.out.print(node.data + "  ");
         inOrderPrint(node.right);
+    }
+
+
+    public void printPath(){
+        int[] path = new int[1000];
+        printPath(root, path, 0);
+    }
+
+    private void printPath(Node node, int[] path, int endIndex){
+        if(node==null)
+            return;
+
+        path[endIndex] = node.data; //if node is not null, save its value to path array
+        endIndex++;                           //add endIndex by 1
+
+        if(node.left == null && node.right == null) {       //reach a leaf
+            printArray(path, endIndex);                             //print this leaf's path which is in the path array.
+        }else{
+            printPath(node.left, path, endIndex);
+            printPath(node.right, path, endIndex);
+        }
+    }
+
+    private void printArray(int[] array, int endIndx){
+        for(int i=0; i<endIndx; i++){
+            System.out.print(array[i] + "  ");
+        }
+        System.out.println();
 
     }
+
+    public void rotate(){
+        root =  rotate(root);
+    }
+
+    private Node rotate(Node node){
+        Queue<Node> queue = new LinkedList<Node>();
+        Stack<Node> stack = new Stack<Node>();
+        Node temp;
+
+        if(node!=null)
+            queue.add(node);
+
+        while(!queue.isEmpty()){
+            temp = queue.poll();
+//            System.out.print(temp.data + "  " );
+            stack.push(temp);
+            if(temp.right!=null){
+                queue.add(temp.right);
+            }
+            if(temp.left!=null){
+                queue.add(temp.left);
+            }
+        }
+
+        while(!stack.isEmpty()){
+            temp = stack.pop();
+            System.out.print(temp.data + "   ");
+        }
+      return node;
+    }
+
 
 
 
