@@ -37,8 +37,8 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25824177">
-                  <caret line="249" column="3" selection-start-line="249" selection-start-column="3" selection-end-line="249" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.42307693">
+                  <caret line="256" column="25" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#514#515#0" expanded="true" />
@@ -625,9 +625,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 11h 37m 41s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 11h 38m 14s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
@@ -653,6 +650,9 @@
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 53m 25s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 55m 34s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -868,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25824177">
-          <caret line="249" column="3" selection-start-line="249" selection-start-column="3" selection-end-line="249" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.42307693">
+          <caret line="256" column="25" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />

@@ -254,22 +254,20 @@ public class BinarySearchTree {
     }
 
     private Node mirror(Node node){
-        if(node == null)
-            return null;
+        if(node != null){
+            if(node.left!=null && node.right!=null){
+                Node temp = node.left;
+                node.left = node.right;
+                node.right = temp;
+            }
 
-        if(node.left!=null && node.right!=null){
-            Node temp = node.left;
-            node.left = node.right;
-            node.right = temp;
+            if(node.left != null){
+                mirror(node.left);
+            }
+            if(node.right!=null){
+                mirror(node.right);
+            }
         }
-
-        if(node.left != null){
-            mirror(node.left);
-        }
-        if(node.right!=null){
-            mirror(node.right);
-        }
-
         return node;
     }
 
