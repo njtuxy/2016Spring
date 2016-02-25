@@ -86,10 +86,11 @@ public class Chapter_1_Arrays_And_StringsTest {
         bst.insert(8);
         bst.insert(4);
         bst.insert(6);
-//        bst.BFSPrint();
+        bst.BFSPrint();
+        bst.mirror();
+        bst.BFSPrint();
 //        bst.inOrderPrint();
 //        bst.printPath();
-        bst.rotate();
     }
 
 }

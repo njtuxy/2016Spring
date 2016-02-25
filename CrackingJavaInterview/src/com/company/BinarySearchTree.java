@@ -94,7 +94,7 @@ public class BinarySearchTree {
         }
         while (!queue.isEmpty()){
             temp = queue.poll();
-            System.out.println(temp.data);
+            System.out.print(temp.data + " ");
             if(temp.left !=null){
                 queue.add(temp.left);
             }
@@ -102,6 +102,7 @@ public class BinarySearchTree {
                 queue.add(temp.right);
             }
         }
+        System.out.println();
     }
 
     //Return the number of the nodes int the tree:
@@ -228,39 +229,49 @@ public class BinarySearchTree {
 
     }
 
-    public void rotate(){
-        root =  rotate(root);
+
+//    public void rotate(){
+//        rotate(root);
+//        Queue<Node> queue = new LinkedList<Node>();
+//    }
+//
+//    private void rotate(Node node){
+//        if(node == null) return;
+//        rotate(node.left);
+//        if(node.right!=null)
+//            System.out.println(node.right.data);
+//        System.out.println(node.data);
+//
+//    }
+
+
+/**
+ * Create a mirror of a tree:
+ */
+
+    public void mirror(){
+        root = mirror(root);
     }
 
-    private Node rotate(Node node){
-        Queue<Node> queue = new LinkedList<Node>();
-        Stack<Node> stack = new Stack<Node>();
-        Node temp;
+    private Node mirror(Node node){
+        if(node == null)
+            return null;
 
-        if(node!=null)
-            queue.add(node);
-
-        while(!queue.isEmpty()){
-            temp = queue.poll();
-//            System.out.print(temp.data + "  " );
-            stack.push(temp);
-            if(temp.right!=null){
-                queue.add(temp.right);
-            }
-            if(temp.left!=null){
-                queue.add(temp.left);
-            }
+        if(node.left!=null && node.right!=null){
+            Node temp = node.left;
+            node.left = node.right;
+            node.right = temp;
         }
 
-        while(!stack.isEmpty()){
-            temp = stack.pop();
-            System.out.print(temp.data + "   ");
+        if(node.left != null){
+            mirror(node.left);
         }
-      return node;
+        if(node.right!=null){
+            mirror(node.right);
+        }
+
+        return node;
     }
-
-
-
 
 
 
