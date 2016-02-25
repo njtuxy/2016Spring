@@ -313,5 +313,31 @@ public class BinarySearchTree {
         return false;
     }
 
+    public boolean isBinarySearchTree(Node node){
+        //Print with order, then
+        return true;
+    }
+
+    public int findMaxValueOfAllNodes(){
+        return findMaxValueOfAllNodes(root);
+    }
+
+    private int findMaxValueOfAllNodes(Node node) {
+        if(node==null)
+            return 0;
+        if(node.left == null && node.right == null)   //reach a leaf node
+            return node.data;
+        if(node.left == null && node.right != null)
+            return Math.max(node.data, node.right.data);
+        if(node.left != null && node.right == null)
+            return Math.max(node.data, node.left.data);
+        return  Math.max(Math.max(node.data, node.left.data), node.right.data);
+    }
+
+
+
+
+
+
 
 }

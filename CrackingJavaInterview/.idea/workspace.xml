@@ -21,7 +21,7 @@
     <favorites_list name="CrackingJavaInterview" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45625">
+    <splitter split-orientation="horizontal" split-proportion="0.51805556">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
@@ -37,8 +37,8 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6703297">
-                  <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.53296703">
+                  <caret line="332" column="55" selection-start-line="332" selection-start-column="55" selection-end-line="332" selection-end-column="55" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#517#518#0" expanded="true" />
@@ -69,6 +69,8 @@
                     <element signature="e#5930#5931#0" expanded="true" />
                     <element signature="e#6449#6450#0" expanded="true" />
                     <element signature="e#6488#6489#0" expanded="true" />
+                    <element signature="e#7366#7367#0" expanded="true" />
+                    <element signature="e#7417#7418#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -91,8 +93,8 @@
           <file leaf-file-name="Chapter_1_Arrays_And_StringsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6821192">
-                  <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.62913907">
+                  <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -123,8 +125,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Chapter_1_Arrays_And_Strings.java" />
         <option value="$PROJECT_DIR$/src/com/company/Chapter_4_Tree_And_Graphs.java" />
         <option value="$PROJECT_DIR$/src/com/company/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/com/company/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -629,12 +631,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 53m 28s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 54m 24s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 55m 31s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
@@ -659,6 +655,12 @@
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 58m 25s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 15h 32m 34s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 15h 33m 02s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="755" width="1440" height="852" extended-state="6" />
@@ -671,7 +673,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.26181355" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="1244" y="369" width="1211" height="852" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" show_stripe_button="true" weight="0.26181355" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" x="1202" y="344" width="1211" height="852" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22083333" sideWeight="0.47521368" order="0" side_tool="false" content_ui="combo" />
@@ -864,16 +866,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6821192">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.62913907">
+          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6703297">
-          <caret line="308" column="38" selection-start-line="308" selection-start-column="38" selection-end-line="308" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.53296703">
+          <caret line="332" column="55" selection-start-line="332" selection-start-column="55" selection-end-line="332" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
@@ -904,6 +906,8 @@
             <element signature="e#5930#5931#0" expanded="true" />
             <element signature="e#6449#6450#0" expanded="true" />
             <element signature="e#6488#6489#0" expanded="true" />
+            <element signature="e#7366#7367#0" expanded="true" />
+            <element signature="e#7417#7418#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -80,14 +80,16 @@ public class Chapter_1_Arrays_And_StringsTest {
     public  void testBinaryTree() throws Exception{
         BinarySearchTree tree1 = new BinarySearchTree();
         BinarySearchTree tree2 = new BinarySearchTree();
-        tree1.insert(10); //tree1.insert(8);tree1.insert(5); tree1.insert(4);
-        tree2.insert(1); //tree2.insert(8);tree2.insert(5); tree2.insert(4); tree2.insert(9);
+        tree1.insert(10); tree1.insert(8);tree1.insert(5); tree1.insert(4);
+        tree2.insert(1); tree2.insert(8);tree2.insert(5); tree2.insert(4); tree2.insert(9);
 //        bst.mirror();
 //        tree1.BFSPrint();
 //        tree2.BFSPrint();
-        System.out.println(BinarySearchTree.sameTree(tree1.getRoot(), tree2.getRoot()));
+//        System.out.println(BinarySearchTree.sameTree(tree1.getRoot(), tree2.getRoot()));
 //        bst.inOrderPrint();
 //        bst.printPath();
+       System.out.println( tree1.findMaxValueOfAllNodes());
+
     }
 
 }
