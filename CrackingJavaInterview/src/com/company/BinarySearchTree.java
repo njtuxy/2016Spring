@@ -271,6 +271,27 @@ public class BinarySearchTree {
         return node;
     }
 
+    /*
+    *   Double a tree:
+    */
+
+    public void doubleTree(){
+        root = doubleTree(root);
+    }
+
+    private Node doubleTree(Node node){
+        if(node!=null){
+            doubleTree(node.left);
+            doubleTree(node.right);
+
+            //double the node
+            Node temp = node.left;
+            node.left = new Node(node.data);
+            node.left.left = temp;
+        }
+        return node;
+    }
+
 
 
 }

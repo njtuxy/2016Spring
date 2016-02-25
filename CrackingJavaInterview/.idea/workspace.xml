@@ -37,8 +37,8 @@
           <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42307693">
-                  <caret line="256" column="25" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.72527474">
+                  <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#514#515#0" expanded="true" />
@@ -65,6 +65,8 @@
                     <element signature="e#4335#4336#0" expanded="true" />
                     <element signature="e#5840#5841#0" expanded="true" />
                     <element signature="e#5875#5876#0" expanded="true" />
+                    <element signature="e#6394#6395#0" expanded="true" />
+                    <element signature="e#6433#6434#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -87,8 +89,8 @@
           <file leaf-file-name="Chapter_1_Arrays_And_StringsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7350993">
-                  <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+                <state vertical-scroll-proportion="0.65562916">
+                  <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -119,8 +121,8 @@
         <option value="$PROJECT_DIR$/src/com/company/Chapter_1_Arrays_And_Strings.java" />
         <option value="$PROJECT_DIR$/src/com/company/Chapter_4_Tree_And_Graphs.java" />
         <option value="$PROJECT_DIR$/src/com/company/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java" />
       </list>
     </option>
   </component>
@@ -625,18 +627,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 11h 38m 14s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 11h 39m 05s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 11h 39m 18s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 47m 47s.xml">
-      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 48m 08s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
@@ -653,6 +643,18 @@
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 12h 55m 34s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 04m 27s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 04m 43s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 06m 52s.xml">
+      <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Chapter_1_Arrays_And_StringsTest_testBinaryTree - 2016.02.25 at 13h 07m 55s.xml">
       <configuration name="Chapter_1_Arrays_And_StringsTest.testBinaryTree" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -858,18 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7350993">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42307693">
-          <caret line="256" column="25" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.72527474">
+          <caret line="286" column="12" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
@@ -896,7 +890,17 @@
             <element signature="e#4335#4336#0" expanded="true" />
             <element signature="e#5840#5841#0" expanded="true" />
             <element signature="e#5875#5876#0" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
+            <element signature="e#6433#6434#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/company/Chapter_1_Arrays_And_StringsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65562916">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
