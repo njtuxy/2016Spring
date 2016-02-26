@@ -234,21 +234,6 @@ public class BinarySearchTree {
     }
 
 
-//    public void rotate(){
-//        rotate(root);
-//        Queue<Node> queue = new LinkedList<Node>();
-//    }
-//
-//    private void rotate(Node node){
-//        if(node == null) return;
-//        rotate(node.left);
-//        if(node.right!=null)
-//            System.out.println(node.right.data);
-//        System.out.println(node.data);
-//
-//    }
-
-
 /**
  * Create a mirror of a tree:
  */
@@ -335,6 +320,33 @@ public class BinarySearchTree {
     }
 
 
+
+    public void  rotate(){
+       root =  rotate(root, null, null);
+    }
+
+    private Node rotate(Node node, Node left, Node right){
+
+        if(node.left==null){
+            node.left = left;
+            node.right = right;
+        }else{
+            Node temp = new Node(node.left.data);
+            //rotate the tree
+            temp.left= node.right;
+            temp.right = node;
+            node.right = null;
+
+            Node temp2 = node;
+            node = node.left;
+            temp2.left = left;
+            temp2.right = right;
+
+            node = rotate(node, temp.left, temp.right);
+        }
+
+        return node;
+    }
 
 
 
