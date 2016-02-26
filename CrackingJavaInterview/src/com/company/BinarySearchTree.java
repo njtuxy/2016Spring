@@ -1,9 +1,7 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Stack;
+import java.lang.reflect.Array;
+import java.util.*;
 
 /**
  * Created by yanxia on 2/24/16.
@@ -347,6 +345,39 @@ public class BinarySearchTree {
 
         return node;
     }
+
+    TreeMap<Integer, ArrayList<Integer>> treeMap = new TreeMap<Integer, ArrayList<Integer>>();
+    public void printColumnOfTree(){
+        printColumnOfTree(root, 0);
+        for(Map.Entry<Integer, ArrayList<Integer>> entry: treeMap.entrySet()){
+            int key = entry.getKey();
+            ArrayList<Integer> nodeList = entry.getValue();
+            for( int j:nodeList){
+                System.out.print(j + " ");
+            }
+        }
+
+
+    }
+    private void printColumnOfTree(Node node, int weight){
+        if(node== null)
+            return;
+
+        int localRootWight = weight;
+        System.out.println(node.data + "  " + " weight: " + weight);
+        if( treeMap.get(weight) == null){
+            ArrayList<Integer> arrayList = new ArrayList<Integer>();
+            arrayList.add(node.data);
+            treeMap.put(weight, arrayList);
+        }else{
+            treeMap.get(weight).add(node.data);
+        }
+        printColumnOfTree(node.left, localRootWight-1);
+        printColumnOfTree(node.right,localRootWight+1);
+    }
+
+
+
 
 
 
