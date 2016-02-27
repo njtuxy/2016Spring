@@ -2,6 +2,7 @@ package com.company;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.Hashtable;
 
 import static org.junit.Assert.*;
@@ -82,7 +83,8 @@ public class Chapter_1_Arrays_And_StringsTest {
         BinarySearchTree tree2 = new BinarySearchTree();
         tree1.insert(10); tree1.insert(6);tree1.insert(11);
         tree1.insert(4);tree1.insert(7);tree1.insert(3);tree1.insert(5);
-        tree1.printColumnOfTree();
+        tree1.inOrderPrint();
+//        tree1.printColumnOfTree();
 //        tree2.insert(1); tree2.insert(8);tree2.insert(5); tree2.insert(4); tree2.insert(9);
 //        bst.mirror();
 //        tree1.BFSPrint();
@@ -94,6 +96,15 @@ public class Chapter_1_Arrays_And_StringsTest {
 //        bst.printPath();
 //       System.out.println( tree1.findMaxValueOfAllNodes());
 
+    }
+
+    @Test
+    public void testInterview() throws Exception{
+        int[] array = new int[]{0,0,1};
+        int[] array1 = new int[]{1,0,1};
+        int[] array2 = new int[]{1,0,1};
+        System.out.println(Arrays.toString(Interview.arrayPlusNumber(array,4)));
+        System.out.println(Arrays.toString(Interview.arrayPlusNumber(array2,1000)));
     }
 
 }

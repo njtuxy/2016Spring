@@ -197,11 +197,10 @@ public class BinarySearchTree {
 
     private void inOrderPrint(Node node) {
         if (node == null) return;
-        inOrderPrint(node.left);
         System.out.print(node.data + "  ");
+        inOrderPrint(node.left);
         inOrderPrint(node.right);
     }
-
 
     public void printPath(){
         int[] path = new int[1000];
@@ -346,6 +345,8 @@ public class BinarySearchTree {
         return node;
     }
 
+
+    //Interview question for facebook:https://careercup.com/question?id=5749533368647680
     TreeMap<Integer, ArrayList<Integer>> treeMap = new TreeMap<Integer, ArrayList<Integer>>();
     public void printColumnOfTree(){
         printColumnOfTree(root, 0);
@@ -359,6 +360,7 @@ public class BinarySearchTree {
 
 
     }
+
     private void printColumnOfTree(Node node, int weight){
         if(node== null)
             return;
@@ -375,6 +377,11 @@ public class BinarySearchTree {
         printColumnOfTree(node.left, localRootWight-1);
         printColumnOfTree(node.right,localRootWight+1);
     }
+
+
+
+
+
 
 
 
