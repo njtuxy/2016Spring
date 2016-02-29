@@ -1,5 +1,6 @@
 package com.company;
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
@@ -11,6 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         readFromFileAndCountTheWords();
+//        readUserInputFromConsole();
     }
 
     public static void readFromFileAndCountTheWords(){
@@ -32,7 +34,8 @@ public class Main {
         }catch (FileNotFoundException e){
             e.printStackTrace();
         }
-//        Scanner doc = new Scanner(System.in).useDelimiter("[^a-zA-Z]+");
+
+
         int maxCount = 0;
         String maxWorld = "no word";
 
@@ -52,6 +55,36 @@ public class Main {
         System.out.print("The most frequency word is " + "\"" + maxWorld + "\"" );
         System.out.println(" with " + maxCount + " occurrences.");
         System.out.println("The occurrences of word wordpress is " + countforWordPress );
-
     }
+
+
+    //Read user console input by scanner class:
+//    public static void readUserInputFromConsole(){
+////        Scanner reader = new Scanner(System.in);
+//        Map<String, Integer> freq = new Hashtable<String, Integer>();
+//        Scanner reader = new Scanner(System.in);
+////        Scanner doc = new Scanner(System.in).useDelimiter("[^a-zA-Z]+");
+//        System.out.println("input your string: ");
+//        String s = reader.next();
+//        String word = reader.next().toLowerCase(); // convert next word to lowercase
+//        System.out.print( word +  "  ");
+//        Integer count = freq.get(word);
+//        if (count==null)
+//            count = 0;
+//        freq.put(word, count+1);
+//        }
+//        reader.close();
+//        int maxCount = 0;
+//        String maxWorld = "no word";
+//
+//        for(Entry<String,Integer> e: freq.entrySet()){
+//            if(e.getValue() > maxCount){
+//                maxCount = e.getValue();
+//                maxWorld = e.getKey();
+//            }
+//        }
+//        System.out.print("The most frequency word is " + "\"" + maxWorld + "\"" );
+//        System.out.println(" with " + maxCount + " occurrences.");
+//    }
+
 }
