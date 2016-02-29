@@ -3,6 +3,7 @@ package com.company;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Hashtable;
 
 import static org.junit.Assert.*;
@@ -105,6 +106,32 @@ public class Chapter_1_Arrays_And_StringsTest {
         int[] array2 = new int[]{1,0,1};
         System.out.println(Arrays.toString(Interview.arrayPlusNumber(array,4)));
         System.out.println(Arrays.toString(Interview.arrayPlusNumber(array2,1000)));
+    }
+
+    @Test
+    public void testDoBinarySearch() throws Exception{
+        int[] test = new int[]{1,2,3,4,5,6,7,8,9};
+        System.out.println(BinarySearch.doBinarySearch(test, 0));
+        System.out.println(BinarySearch.doBinarySearch(test, 1));
+        System.out.println(BinarySearch.doBinarySearch(test, 2));
+        System.out.println(BinarySearch.doBinarySearch(test, 3));
+        System.out.println(BinarySearch.doBinarySearch(test, 4));
+        System.out.println(BinarySearch.doBinarySearch(test, 5));
+        System.out.println(BinarySearch.doBinarySearch(test, 6));
+        System.out.println(BinarySearch.doBinarySearch(test, 7));
+        System.out.println(BinarySearch.doBinarySearch(test, 8));
+        System.out.println(BinarySearch.doBinarySearch(test, 9));
+        System.out.println(BinarySearch.doBinarySearch(test, 10));
+    }
+
+    @Test
+    public void testCollection() throws Exception{
+//        CollectionDemos.hashSetDemo();
+//        CollectionDemos.linkedHashSetExample();
+//        CollectionDemos.treeSetExample();
+        CollectionDemos.hashMapExample();
+        CollectionDemos.linkedHashMapExample();
+        CollectionDemos.treeMapExample();
     }
 
 }
