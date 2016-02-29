@@ -129,9 +129,10 @@ public class Chapter_1_Arrays_And_StringsTest {
 //        CollectionDemos.hashSetDemo();
 //        CollectionDemos.linkedHashSetExample();
 //        CollectionDemos.treeSetExample();
-        CollectionDemos.hashMapExample();
-        CollectionDemos.linkedHashMapExample();
-        CollectionDemos.treeMapExample();
+//        CollectionDemos.hashMapExample();
+//        CollectionDemos.linkedHashMapExample();
+//        CollectionDemos.treeMapExample();
+        CollectionDemos.arrayListExampe();
     }
 
 }

@@ -108,6 +108,39 @@ public class CollectionDemos {
         }
     }
 
+    /**
+     *  Linkedlist demo, allows duplication, efficient insert/delete at head, for large amount of size.
+     */
+
+    public static void linkedListExample(){
+        LinkedList<Integer> linkedList = new LinkedList<Integer>();
+        linkedList.add(1);
+        linkedList.add(1);
+        linkedList.add(20);
+        linkedList.add(30);
+        linkedList.add(30);
+
+        for(Integer i:linkedList){
+            System.out.print(i + "  ");
+        }
+        System.out.println();
+    }
+
+    public static void arrayListExampe(){
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(20);
+        arrayList.add(20);
+        arrayList.add(30);
+
+        for(Integer i: arrayList){
+            System.out.print(i + "  ");
+        }
+
+        System.out.println();
+    }
+
 
 
 }
