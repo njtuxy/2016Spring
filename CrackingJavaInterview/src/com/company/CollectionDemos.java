@@ -36,10 +36,10 @@ public class CollectionDemos {
         linkedHashSet.add(20);
         linkedHashSet.add(2);
 
-        for(Integer i:linkedHashSet){
-            System.out.print(i + "  ");
-        }
-        System.out.println();
+//        for(Integer i:linkedHashSet){
+//            System.out.print(i + "  ");
+//        }
+        System.out.println(linkedHashSet.toString());
 
     }
 
@@ -134,11 +134,11 @@ public class CollectionDemos {
         arrayList.add(20);
         arrayList.add(30);
 
-        for(Integer i: arrayList){
-            System.out.print(i + "  ");
-        }
+//        for(Integer i: arrayList){
+//            System.out.print(i + "  ");
+//        }
 
-        System.out.println();
+        System.out.println(arrayList.toString());
     }
 
 

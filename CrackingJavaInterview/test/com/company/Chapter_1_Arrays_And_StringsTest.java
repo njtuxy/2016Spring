@@ -127,12 +127,12 @@ public class Chapter_1_Arrays_And_StringsTest {
     @Test
     public void testCollection() throws Exception{
 //        CollectionDemos.hashSetDemo();
-//        CollectionDemos.linkedHashSetExample();
+        CollectionDemos.linkedHashSetExample();
 //        CollectionDemos.treeSetExample();
 //        CollectionDemos.hashMapExample();
 //        CollectionDemos.linkedHashMapExample();
 //        CollectionDemos.treeMapExample();
-        CollectionDemos.arrayListExampe();
+//        CollectionDemos.arrayListExampe();
     }
 
 }
