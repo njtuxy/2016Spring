@@ -83,8 +83,8 @@ public class Chapter_1_Arrays_And_StringsTest {
         BinarySearchTree tree2 = new BinarySearchTree();
         tree1.insert(10); tree1.insert(6);tree1.insert(11);
         tree1.insert(4);tree1.insert(7);tree1.insert(3);tree1.insert(5);
-        tree1.inOrderPrint();
-//        tree1.printColumnOfTree();
+//        tree1.inOrderPrint();
+        tree1.printColumnOfTree();
 //        tree2.insert(1); tree2.insert(8);tree2.insert(5); tree2.insert(4); tree2.insert(9);
 //        bst.mirror();
 //        tree1.BFSPrint();

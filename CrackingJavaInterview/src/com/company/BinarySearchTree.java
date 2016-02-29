@@ -2,6 +2,7 @@ package com.company;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.Map.Entry;
 
 /**
  * Created by yanxia on 2/24/16.
@@ -348,17 +349,16 @@ public class BinarySearchTree {
 
     //Interview question for facebook:https://careercup.com/question?id=5749533368647680
     TreeMap<Integer, ArrayList<Integer>> treeMap = new TreeMap<Integer, ArrayList<Integer>>();
+    StringBuilder sb = new StringBuilder();
     public void printColumnOfTree(){
         printColumnOfTree(root, 0);
-        for(Map.Entry<Integer, ArrayList<Integer>> entry: treeMap.entrySet()){
-            int key = entry.getKey();
-            ArrayList<Integer> nodeList = entry.getValue();
-            for( int j:nodeList){
-                System.out.print(j + " ");
+        for(Entry<Integer, ArrayList<Integer>> e: treeMap.entrySet()){
+            for(Integer entry:e.getValue()){
+                sb.append(""+ entry);
             }
         }
 
-
+        System.out.println(sb.toString());
     }
 
     private void printColumnOfTree(Node node, int weight){
@@ -366,13 +366,13 @@ public class BinarySearchTree {
             return;
 
         int localRootWight = weight;
-        System.out.println(node.data + "  " + " weight: " + weight);
-        if( treeMap.get(weight) == null){
+//        System.out.print(node.data + "  " + " weight: " + weight + "    ");
+        if( treeMap.get(weight) == null){   //need to insert a new node to treeMap
             ArrayList<Integer> arrayList = new ArrayList<Integer>();
             arrayList.add(node.data);
             treeMap.put(weight, arrayList);
         }else{
-            treeMap.get(weight).add(node.data);
+            treeMap.get(weight).add(node.data);  //update existing treeMap value
         }
         printColumnOfTree(node.left, localRootWight-1);
         printColumnOfTree(node.right,localRootWight+1);

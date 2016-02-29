@@ -1,0 +1,29 @@
+
+Root level weight = 0;
+Read and set each Node weight;
+Use hashTable to save Node data and its weight
+
+every node has distinct value, so use node data as key of hashTable, save its weight as hashValue
+
+[3,0], [1,1], [6,1], [0,2], [2,2], [5,2], [7,2]
+
+iterate through hash
+
+[0,{3}]
+[1, {1,6}]
+[2, {0,2,5,7}]
+
+
+Map<Integer, Integer[]> ws = new hashTable<Integer, Integer[]>;
+
+public void binarySearchTreeTraversalByLevel(Node node, int initWeight){
+	if(node == null)
+		return
+	weight = initWeight;	
+	if(ws.get(weight) == null)
+
+	
+	binarySearchTreeTraversalByLevel(node.left, weight+1);
+	binarySearchTreeTraversalByLevel(node.right, weight+1);
+
+}
