@@ -135,4 +135,14 @@ public class Chapter_1_Arrays_And_StringsTest {
 //        CollectionDemos.arrayListExampe();
     }
 
+    @Test
+    public void testStringDemo() throws Exception{
+        assertTrue(StringDemos.isIosmorphic("foo", "app"));
+        assertFalse(StringDemos.isIosmorphic("bar", "foo"));
+        assertTrue(StringDemos.isIosmorphic("turtle", "tletur"));
+        assertTrue(StringDemos.isIosmorphic("ab", "ac"));
+        assertFalse(StringDemos.isIosmorphic("aa", "ab"));
+        assertFalse(StringDemos.isIosmorphic("aba", "baa"));
+        assertFalse(StringDemos.isIosmorphic("aab", "aaa"));
+    }
 }

@@ -358,7 +358,8 @@ public class BinarySearchTree {
 
 
     //Interview question for facebook:https://careercup.com/question?id=5749533368647680
-    //Calculate the weight of each node on each level:    
+    //Calculate the weight of each node on each level:
+        
     TreeMap<Integer, ArrayList<Integer>> treeMap = new TreeMap<Integer, ArrayList<Integer>>();
     StringBuilder sb = new StringBuilder();
     public void printColumnOfTree(){
