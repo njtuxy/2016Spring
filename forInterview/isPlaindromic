@@ -1,0 +1,9 @@
+    public static boolean isPlaindromic(String s){
+        int startIndex = (s.length()-1)/2;
+        int endIndx = s.length()/2;
+        while(startIndex>=0 && endIndx<=s.length()-1 && s.charAt(startIndex) == s.charAt(endIndx)){
+            startIndex--;
+            endIndx++;
+        }
+        return s.substring(startIndex+1, endIndx).equals(s);
+    }
