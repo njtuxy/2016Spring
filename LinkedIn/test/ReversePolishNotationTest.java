@@ -12,7 +12,8 @@ public class ReversePolishNotationTest {
     public void testReverserPolishNotationValue() throws Exception {
         assertEquals(10.0, ReversePolishNotation.reverserPolishNotationValue(new String[]{"4", "1", "+", "2", "*"}), DELTA);
         assertEquals(7.0, ReversePolishNotation.reverserPolishNotationValue(new String[]{"5", "80", "40", "/", "+"}), DELTA);
-//        assertEquals(new IllegalArgumentException(), ReversePolishNotation.reverserPolishNotationValue(new String[]{"5", "0", "/"}));
-
+//        assertEquals(new IllegalArgumentException(), ReversePolishNotation.reverserP4olishNotationValue(new String[]{"5", "0", "/"}));
     }
+
+
 }
